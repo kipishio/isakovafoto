@@ -1,0 +1,165 @@
+{% extends "base2.html" %}
+{% block architect_pages_sample %}
+
+<body class="page page-template page-template-template-portfolio page-template-template-portfolio-php menu-left menu-collapsible">
+
+	<!-- Preloader -->
+	<div id="preloader" style="display: none;">
+		<div id="status" style="display: none;">
+			<div class="windows8">
+				<div class="wBall" id="wBall_1">
+					<div class="wInnerBall"></div>
+				</div>
+				<div class="wBall" id="wBall_2">
+					<div class="wInnerBall"></div>
+				</div>
+				<div class="wBall" id="wBall_3">
+					<div class="wInnerBall"></div>
+				</div>
+				<div class="wBall" id="wBall_4">
+					<div class="wInnerBall"></div>
+				</div>
+				<div class="wBall" id="wBall_5">
+					<div class="wInnerBall"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Overlay -->
+	<div id="overlay"></div>
+
+	<!-- Top header -->
+	<div id="top" class="shadow">
+
+		<!-- Sidebar button -->
+		<a href="#" id="sidebar-button"></a>
+
+		<!-- Logo -->
+		<header id="logo"><a href="index.html"><img src="img/logo.svg" alt=""></a></header>
+
+		<!-- Portfolio close button -->
+		<a href="#" id="portfolio-close"></a>
+
+	</div>
+
+	<!-- Main wrapper -->
+	<div id="main-wrapper">
+
+		<!-- Content -->
+		<div id="content" class="isotope-container">
+
+			<!-- Fluid container -->
+			<div class="container-fluid">
+
+				<!-- Page heading -->
+				<div id="heading" class="row">
+					<div class="col-12">
+
+						<header>
+							<h1>Типографика</h1>
+													</header>
+
+					</div>
+				</div>
+
+				<!-- Main content -->
+				<div class="row">
+					<div class="main-column col-12">
+
+						<!-- Inner -->
+						<div class="inner">
+
+							<div class="row">
+								<div class="col-12">
+
+									<p>This is an example page. It&#8217;s different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:</p>
+<blockquote><p>Hi there! I&#8217;m a bike messenger by day, aspiring actor by night, and this is my blog. I live in Los Angeles, have a great dog named Jack, and I like pi&#241;a coladas. (And gettin&#8217; caught in the rain.)</p></blockquote>
+<p>&#8230;or something like this:</p>
+<blockquote><p>The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.</p></blockquote>
+<p>As a new WordPress user, you should go to <a href="">your dashboard</a> to delete this page and create new pages for your content. Have fun!</p>
+
+								</div>
+							</div>
+
+						</div>
+
+							
+	
+									<div id="respond" class="comment-respond">
+				<h3 id="reply-title" class="comment-reply-title"> <small><a rel="nofollow" id="cancel-comment-reply-link" href="" style="display:none;">Cancel Reply</a></small></h3>
+									<form action="http://r6themes.com/rayleigh-wp/light/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
+																										<div class="row"><div class="form-group col-4 comment-form-author"><label for="author">Name</label> <span class="required">*</span><input id="author" class="form-control" name="author" type="text" value="" size="30" aria-required='true' /></div>
+<div class="form-group col-4 comment-form-email"><label for="email">Email</label> <span class="required">*</span><input id="email" class="form-control" name="email" type="text" value="" size="30" aria-required='true' /></div>
+<div class="form-group col-4 comment-form-url"><label for="url">Website</label><input id="url" class="form-control" name="url" type="text" value="" size="30" /></div></div>
+												<p class="comment-form-comment"><label for="comment">Your comment</label><textarea id="comment" class="form-control" name="comment" cols="45" rows="8" aria-required="true"></textarea></p>												<p class="form-submit">
+							<input name="submit" type="submit" id="submit" class="submit" value="Post Comment" />
+							<input type='hidden' name='comment_post_ID' value='2' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+						</p>
+						<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="263a30cae7" /></p><script type='text/javascript' src='js/form.js'></script>
+<p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="70"/></p>					</form>
+							</div><!-- #respond -->
+			
+					</div>
+				</div>
+
+				
+			</div>
+
+		</div>
+
+		<!-- Collapsible sidebar -->
+		<div id="sidebar">
+
+			<!-- Widget Area -->
+			<div id="widgets">
+
+				<!-- Main menu -->
+				<nav id="mainmenu">
+
+					<ul id="menu-rayleigh-main-menu" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home"><a href="index.html">Главная</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="services.html">Услуги</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="#">Портфолио</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="portfolio_one.html">1 колонка</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="portfolio_two.html">2 колонки</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="portfolio_three.html">3 колонки</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="portfolio_four.html">4 колонки</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="#">Блог</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="blog_one.html">1 колонка</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="blog_two.html">2 колонка</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="blog_three.html">3 колонка</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="blog_four.html">4 колонка</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="team.html">Команда</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children current-menu-item current_page_item"><a href="#">Страницы</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="pages_404.html">404 ошибка</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="pages_grid.html">Сетка</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="pages_sample.html">Типографика</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="pages_shortcodes.html">Элементы</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="contact.html">Контакты</a></li>
+</ul>
+				</nav>
+
+			</div>
+
+			<!-- Copyright -->
+			<footer>
+				<p class="copyright"><span>© Copyright 2014 Rayleigh</span></p>
+			</footer>
+
+		</div>
+
+	</div>
+{% endblock %}
+
+
+</body>

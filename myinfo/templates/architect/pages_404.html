@@ -1,0 +1,189 @@
+{% extends "base2.html" %}
+{% block architect_pages_404 %}
+
+    <body class="page page-template page-template-template-portfolio page-template-template-portfolio-php menu-left menu-collapsible">
+
+    <!-- Preloader -->
+    <div id="preloader" style="display: none;">
+        <div id="status" style="display: none;">
+            <div class="windows8">
+                <div class="wBall" id="wBall_1">
+                    <div class="wInnerBall"></div>
+                </div>
+                <div class="wBall" id="wBall_2">
+                    <div class="wInnerBall"></div>
+                </div>
+                <div class="wBall" id="wBall_3">
+                    <div class="wInnerBall"></div>
+                </div>
+                <div class="wBall" id="wBall_4">
+                    <div class="wInnerBall"></div>
+                </div>
+                <div class="wBall" id="wBall_5">
+                    <div class="wInnerBall"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Overlay -->
+    <div id="overlay"></div>
+
+    <!-- Top header -->
+    <div id="top" class="shadow">
+
+        <!-- Sidebar button -->
+        <a href="#" id="sidebar-button"></a>
+
+        <!-- Logo -->
+        <header id="logo"><a href="index.html"><img src="img/logo.svg" alt=""></a></header>
+
+        <!-- Portfolio close button -->
+        <a href="#" id="portfolio-close"></a>
+
+    </div>
+
+    <!-- Main wrapper -->
+    <div id="main-wrapper">
+
+        <!-- Content -->
+        <div id="content" class="isotope-container">
+
+            <!-- Fluid container -->
+            <div class="container-fluid">
+
+                <!-- Page heading -->
+                <div id="heading" class="row">
+                    <div class="col-12">
+
+                        <header>
+                            <h1>Ошибка 404</h1>
+
+                            <h2>Страницы не существует</h2>
+                        </header>
+
+                    </div>
+                </div>
+
+                <!-- Main content -->
+                <div class="row">
+                    <div class="main-column col-12">
+
+                        <!-- Inner -->
+                        <div class="inner">
+
+                            <div class="row">
+                                <div class="col-6">
+
+                                    <p>The page you have requested does not exists.</p>
+
+                                    <p>Perhaps you are here because:</p>
+                                    <ul class="fa-ul">
+                                        <li><i class="fa-li fa fa-angle-right"></i>The page has moved</li>
+                                        <li><i class="fa-li fa fa-angle-right"></i>The page is deleted</li>
+                                        <li><i class="fa-li fa fa-angle-right"></i>You like 404 pages</li>
+                                    </ul>
+
+                                </div>
+                                <div class="col-6">
+
+                                    <h4>Don't panic, here is a search box</h4>
+
+                                    <form role="search" method="get" id="searchform"
+                                          action="http://r6themes.com/rayleigh-wp/light/">
+                                        <div class="input-group">
+                                            <input type="text" name="s" id="s" class="form-control" value=""
+                                                   placeholder="Search here...">
+		<span class="input-group-btn">
+			<button type="submit" class="btn btn-color btn-icon-only"><i class="glyphicon glyphicon-search"></i>
+            </button>
+		</span>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <!-- Collapsible sidebar -->
+        <div id="sidebar">
+
+            <!-- Widget Area -->
+            <div id="widgets">
+
+                <!-- Main menu -->
+                <nav id="mainmenu">
+
+                    <ul id="menu-rayleigh-main-menu" class="menu">
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home"><a
+                                href="index.html">Главная</a></li>
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="services.html">Услуги</a>
+                        </li>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a
+                                href="#">Портфолио</a>
+                            <ul class="sub-menu">
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                        href="portfolio_one.html">1 колонка</a></li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                        href="portfolio_two.html">2 колонки</a></li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                        href="portfolio_three.html">3 колонки</a></li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                        href="portfolio_four.html">4 колонки</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a
+                                href="#">Блог</a>
+                            <ul class="sub-menu">
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                        href="blog_one.html">1 колонка</a></li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                        href="blog_two.html">2 колонка</a></li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                        href="blog_three.html">3 колонка</a></li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                        href="blog_four.html">4 колонка</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                href="team.html">Команда</a></li>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children current-menu-item current_page_item">
+                            <a href="#">Страницы</a>
+                            <ul class="sub-menu">
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                        href="pages_404.html">404 ошибка</a></li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                        href="pages_grid.html">Сетка</a></li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                        href="pages_sample.html">Типографика</a></li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                        href="pages_shortcodes.html">Элементы</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="contact.html">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+
+            <!-- Copyright -->
+            <footer>
+                <p class="copyright"><span>© Copyright 2014 Rayleigh</span></p>
+            </footer>
+
+        </div>
+
+    </div>
+{% endblock %}
+
+
+</body>

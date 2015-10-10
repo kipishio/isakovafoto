@@ -1,0 +1,323 @@
+{% extends "base2.html" %}
+{% block architect_pages_shortcodes %}
+
+    <body class="page page-template-default menu-left menu-collapsible">
+
+    <!-- Preloader -->
+    <div id="preloader" style="display: none;">
+        <div id="status" style="display: none;">
+            <div class="windows8">
+                <div class="wBall" id="wBall_1">
+                    <div class="wInnerBall"></div>
+                </div>
+                <div class="wBall" id="wBall_2">
+                    <div class="wInnerBall"></div>
+                </div>
+                <div class="wBall" id="wBall_3">
+                    <div class="wInnerBall"></div>
+                </div>
+                <div class="wBall" id="wBall_4">
+                    <div class="wInnerBall"></div>
+                </div>
+                <div class="wBall" id="wBall_5">
+                    <div class="wInnerBall"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Overlay -->
+    <div id="overlay"></div>
+
+    <!-- Top header -->
+    <div id="top" class="shadow">
+
+        <!-- Sidebar button -->
+        <a href="#" id="sidebar-button"></a>
+
+        <!-- Logo -->
+        <header id="logo"><a href="index.html"><img src="img/logo.svg" alt=""></a></header>
+
+        <!-- Portfolio close button -->
+        <a href="#" id="portfolio-close"></a>
+
+    </div>
+
+    <!-- Main wrapper -->
+    <div id="main-wrapper">
+
+        <!-- Content -->
+        <div id="content" class="isotope-container">
+
+            <!-- Fluid container -->
+            <div class="container-fluid">
+
+                <!-- Page heading -->
+                <div id="heading" class="row">
+                    <div class="col-12">
+
+                        <header>
+                            <h1>Элементы</h1>
+
+                            <h2>Слайдеры, табы, кнопки и другие элементы</h2></header>
+
+                    </div>
+                </div>
+
+                <!-- Main content -->
+                <div class="row">
+                    <div class="main-column col-12">
+
+                        <!-- Inner -->
+                        <div class="inner">
+
+                            <div class="row">
+                                <div class="col-12">
+
+                                    <h2>Tabs</h2>
+                                    <ul class="nav nav-tabs">
+                                        <li class="active"><a href="#tabs-1" data-toggle="tab">Tab 1</a></li>
+                                        <li><a href="#tabs-2" data-toggle="tab">Tab 2</a></li>
+                                        <li><a href="#tabs-3" data-toggle="tab">Tab 3</a></li>
+                                    </ul>
+                                    <div class="tab-content">
+                                        <div class="tab-pane fade in active" id="tabs-1"><p>Lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit. Aliquam ac iaculis ligula, sit amet blandit
+                                            quam. Mauris dolor lorem, suscipit eu turpis non, pretium placerat orci.
+                                            Nullam lectus felis, laoreet eget elementum et, facilisis nec metus. Proin
+                                            ligula ligula, ultrices eu magna tincidunt, suscipit placerat mi. Nullam
+                                            dictum tempor aliquet. Ut lacinia convallis elit. Nullam sed est magna. Sed
+                                            non urna in dui fermentum consequat nec non risus.</p></div>
+                                        <div class="tab-pane fade" id="tabs-2"><p>Vivamus leo neque, bibendum non
+                                            faucibus sed, tempus vitae dui. Suspendisse ultrices enim metus, ac feugiat
+                                            libero euismod quis. Lorem ipsum dolor sit amet, consectetur adipiscing
+                                            elit. Vivamus dignissim rhoncus lorem ac accumsan. Nam vel consectetur
+                                            ipsum. Quisque porta turpis vitae quam porta mattis. Integer a libero
+                                            feugiat, malesuada nunc in, lacinia orci. In suscipit odio nec libero
+                                            viverra aliquet. Donec commodo tellus sed libero elementum, vel tempor enim
+                                            consequat. Integer sit amet sem euismod, tristique libero at, volutpat
+                                            lectus.</p></div>
+                                        <div class="tab-pane fade" id="tabs-3"><p>Aliquam erat volutpat. Nullam in
+                                            sapien ut velit convallis blandit vitae aliquam ligula. Maecenas tincidunt
+                                            laoreet condimentum. Nullam elementum augue suscipit accumsan interdum.
+                                            Fusce malesuada posuere erat, eget gravida lacus suscipit vitae. Nam est
+                                            mauris, pellentesque nec leo sed, fringilla commodo nisl. Class aptent
+                                            taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+                                            himenaeos.</p></div>
+                                    </div>
+
+                                    <h2>Buttons</h2>
+                                    <a href="#" target="_self" class="btn btn-sm"
+                                       style="background-color: #00a3cc; color: #ffffff">Small Button</a>
+                                    <a href="#" target="_self" class="btn btn-md"
+                                       style="background-color: #00a3cc; color: #ffffff">Medium Button</a>
+                                    <a href="#" target="_self" class="btn btn-lg"
+                                       style="background-color: #00a3cc; color: #ffffff">Large Button</a>
+                                    <a href="#" target="_self" class="btn btn-lg"
+                                       style="background-color: #202020; color: #ffffff"><i class="fa fa-check"></i>Button
+                                        with Icon</a>
+                                    <a href="#" target="_self" class="btn btn-lg"
+                                       style="background-color: #cccccc; color: #191919"><i
+                                            class="fa fa-thumbs-o-up"></i>Highly Customizable</a>
+                                    <a href="#" target="_self" class="btn btn-lg"
+                                       style="background-color: #55b05a; color: #ffffff">Any Color</a>
+                                    <a href="#" target="_self" class="btn btn-lg"
+                                       style="background-color: #00a3cc; color: #ffffff"><i class="fa fa-smile-o"></i>350+
+                                        Icons</a>
+
+                                    <h2>Alert Boxes</h2>
+
+                                    <div class="alert alert-success fade in"><i class="fa fa-check-circle"></i>
+                                        <button type="button" class="close" data-dismiss="alert"
+                                                aria-hidden="true">&times;</button>
+                                        <p>Success! Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+                                    <div class="alert alert-info fade in"><i class="fa fa-info-circle"></i>
+                                        <button type="button" class="close" data-dismiss="alert"
+                                                aria-hidden="true">&times;</button>
+                                        <p>Info! Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+                                    <div class="alert alert-warning fade in"><i class="fa fa-exclamation-triangle"></i>
+                                        <button type="button" class="close" data-dismiss="alert"
+                                                aria-hidden="true">&times;</button>
+                                        <p>Warning! Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+                                    <div class="alert alert-danger fade in"><i class="fa fa-exclamation-circle"></i>
+                                        <button type="button" class="close" data-dismiss="alert"
+                                                aria-hidden="true">&times;</button>
+                                        <p>Danger! Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+                                    <h2>Slider</h2>
+
+                                    <div class="row">
+                                        <div class="col-8">
+                                            <div class="swiper swiper-container" style="width: 100%; height: 400px"
+                                                 data-loop="false" data-autoplay="" data-speed="400">
+                                                <div class="swiper-wrapper">
+                                                    <div class="swiper-slide overlay overlay-none"
+                                                         style="background-image: url(img/11.jpg)"><h3></h3></div>
+                                                    <div class="swiper-slide overlay overlay-none"><h3></h3>
+                                                        <video width="640" height="360" loop>
+                                                            <source src="media/4.webm" type="video/webm">
+                                                            <source src="img/4.mp4" type="video/mp4">
+                                                            <source src="media/4.ogv" type="video/ogg">
+                                                        </video>
+                                                    </div>
+                                                </div>
+                                                <a class="nav-arrow nav-left" href="#"></a><a
+                                                    class="nav-arrow nav-right" href="#"></a></div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="swiper swiper-container" style="width: 100%; height: 400px"
+                                                 data-loop="false" data-autoplay="3500" data-speed="400">
+                                                <div class="swiper-wrapper">
+                                                    <div class="swiper-slide overlay overlay-dark-25"
+                                                         style="background-image: url(img/6.jpg)"><h3>Caption</h3></div>
+                                                    <div class="swiper-slide overlay overlay-none"
+                                                         style="background-image: url(img/3.jpg)"><h3></h3></div>
+                                                </div>
+                                                <a class="nav-arrow nav-left" href="#"></a><a
+                                                    class="nav-arrow nav-right" href="#"></a></div>
+                                        </div>
+                                    </div>
+                                    <h2>Custom Lists</h2>
+
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <ul class="fa-ul">
+                                                <li><i class="fa-li fa fa-angle-right"></i> Lists are easy to do:
+                                                    <ul class="fa-ul">
+                                                        <li><i class="fa-li fa fa-angle-right"></i> start every line
+                                                        </li>
+                                                    </ul>
+                                                <li><i class="fa-li fa fa-angle-right"></i> with a star
+                                                    <ul class="fa-ul">
+                                                        <li><i class="fa-li fa fa-angle-right"></i> more stars mean
+                                                            <ul class="fa-ul">
+                                                                <li><i class="fa-li fa fa-angle-right"></i> deeper
+                                                                    levels
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-6">
+                                            <ul class="fa-ul">
+                                                <li><i class="fa-li fa fa-angle-double-right"></i> Lists are easy to do:
+                                                    <ul class="fa-ul">
+                                                        <li><i class="fa-li fa fa-angle-double-right"></i> start every
+                                                            line
+                                                        </li>
+                                                    </ul>
+                                                <li><i class="fa-li fa fa-angle-double-right"></i> with a star
+                                                    <ul class="fa-ul">
+                                                        <li><i class="fa-li fa fa-angle-double-right"></i> more stars
+                                                            mean
+                                                            <ul class="fa-ul">
+                                                                <li><i class="fa-li fa fa-angle-double-right"></i>
+                                                                    deeper levels
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <h2>Text with Icon</h2>
+
+                                    <div class="icon-text"><i class="fa fa-map-marker"></i>
+
+                                        <p>Street 314, 71000 Sarajevo Bosnia and Hercegovina</p></div>
+                                    <div class="icon-text"><i class="fa fa-phone"></i>
+
+                                        <p>+387 62 123-456</p></div>
+                                    <div class="icon-text"><i class="fa fa-envelope-o"></i>
+
+                                        <p>eric@bayguzin.ru</p></div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <!-- Collapsible sidebar -->
+        <div id="sidebar">
+
+            <!-- Widget Area -->
+            <div id="widgets">
+
+                <!-- Main menu -->
+                <nav id="mainmenu">
+
+                    <ul id="menu-rayleigh-main-menu" class="menu">
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home"><a
+                                href="index.html">Главная</a></li>
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="services.html">Услуги</a>
+                        </li>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a
+                                href="#">Портфолио</a>
+                            <ul class="sub-menu">
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                        href="portfolio_one.html">1 колонка</a></li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                        href="portfolio_two.html">2 колонки</a></li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                        href="portfolio_three.html">3 колонки</a></li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                        href="portfolio_four.html">4 колонки</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a
+                                href="#">Блог</a>
+                            <ul class="sub-menu">
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                        href="blog_one.html">1 колонка</a></li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                        href="blog_two.html">2 колонка</a></li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                        href="blog_three.html">3 колонка</a></li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                        href="blog_four.html">4 колонка</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                href="team.html">Команда</a></li>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children current-menu-item current_page_item">
+                            <a href="#">Страницы</a>
+                            <ul class="sub-menu">
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                        href="pages_404.html">404 ошибка</a></li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                        href="pages_grid.html">Сетка</a></li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                        href="pages_sample.html">Типографика</a></li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                        href="pages_shortcodes.html">Элементы</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="contact.html">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+
+            <!-- Copyright -->
+            <footer>
+                <p class="copyright"><span>© Copyright 2014 Rayleigh</span></p>
+            </footer>
+
+        </div>
+
+    </div>
+{% endblock %}
+
+</body>
