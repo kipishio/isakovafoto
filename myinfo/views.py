@@ -87,4 +87,4 @@ def architect_services(request):
 
 def architect_team(request):
     index = 'index'
-    return render_to_response('architect/team.htmll', {'index': index})
+    return render_to_response('architect/team.html', {'index': index})
